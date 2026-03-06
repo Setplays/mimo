@@ -5,7 +5,7 @@ require 'db.php';
 $error = ''; $success = '';
 
 if (isset($_POST['login'])) {
-    if ($_POST['user'] === 'lari' && $_POST['pass'] === '') { $_SESSION['logged_in'] = true; } 
+    if ($_POST['user'] === 'teste' && $_POST['pass'] === '123') { $_SESSION['logged_in'] = true; } 
     else { $error = "Usuário ou senha incorretos."; }
 }
 
