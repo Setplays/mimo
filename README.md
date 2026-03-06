@@ -9,3 +9,9 @@ Para que o site funcione você deve apenas jogar tudo em uma pasta, e abrir o cm
 php -S localhost:8000
 
 Após isso você já poderá acessar o site no link localhost:8000
+
+Para acessar a página de admin você deve acessar: localhost:8000/admin.php
+
+O login e senha de admin são:
+Usuário: teste
+Senha: 123
